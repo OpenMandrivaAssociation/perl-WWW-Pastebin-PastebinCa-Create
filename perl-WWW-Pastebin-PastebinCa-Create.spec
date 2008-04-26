@@ -1,7 +1,6 @@
-
 %define realname   WWW-Pastebin-PastebinCa-Create
 %define version    0.001
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{realname}
 Version:    %{version}
@@ -15,6 +14,8 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-devel
 BuildRequires: perl(Carp)
 BuildRequires: perl(Class::Data::Accessor)
+# reported missing by pterjan:
+Requires: perl(Class::Data::Accessor)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(URI)
 BuildRequires: perl(WWW::Mechanize)
@@ -54,6 +55,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README META.yml Changes
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
-

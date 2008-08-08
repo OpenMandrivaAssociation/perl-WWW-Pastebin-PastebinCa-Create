@@ -1,6 +1,6 @@
 %define realname   WWW-Pastebin-PastebinCa-Create
 %define version    0.001
-%define release    %mkrel 2
+%define release    %mkrel 3
 
 Name:       perl-%{realname}
 Version:    %{version}

@@ -27,7 +27,7 @@ The module provides means of pasting large texts into the
 http://pastebin.ca/ manpage pastebin site.
 
 %prep
-%setup -q -n %{realname}-%{version} 
+%setup -qn WWW-Pastebin-PastebinCa-Create-0.004
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor

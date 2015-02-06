@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:	%perl_convert_version 0.004
-Release:	2
+Release:	3
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Create new pastes on http://pastebin.ca/ from Perl

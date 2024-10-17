@@ -7,7 +7,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Create new pastes on http://pastebin.ca/ from Perl
 Source:		http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCa-Create-0.004.tar.gz
-Url:		http://search.cpan.org/dist/%{realname}
+Url:		https://search.cpan.org/dist/%{realname}
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)

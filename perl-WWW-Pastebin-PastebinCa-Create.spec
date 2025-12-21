@@ -9,6 +9,7 @@ Summary:	Create new pastes on http://pastebin.ca/ from Perl
 Source:		http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCa-Create-0.004.tar.gz
 Url:		https://search.cpan.org/dist/%{realname}
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Class::Data::Accessor)

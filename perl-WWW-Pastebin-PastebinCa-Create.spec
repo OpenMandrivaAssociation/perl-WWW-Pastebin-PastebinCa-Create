@@ -1,13 +1,13 @@
 %define realname   WWW-Pastebin-PastebinCa-Create
 
 Name:		perl-%{realname}
-Version:	%perl_convert_version 0.004
-Release:	3
+Version:	1.001001
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Create new pastes on http://pastebin.ca/ from Perl
-Source:		http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCa-Create-0.004.tar.gz
-Url:		https://search.cpan.org/dist/%{realname}
+Source:		https://cpan.metacpan.org/authors/id/Z/ZO/ZOFFIX/WWW-Pastebin-PastebinCa-Create-1.001001.tar.gz
+Url:		https://github.com/zoffixznet/www-pastebin-pastebinca-create
 
 BuildRequires:	make
 BuildRequires:	perl-devel
